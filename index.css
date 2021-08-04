@@ -1,0 +1,128 @@
+body{
+  width:100%;
+  background-color: #3a3d40;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+.ms-5{
+}
+li{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+h1{
+  font-weight: bolder;
+  color: white;
+  font-style: normal;
+  font-size: 1.5rem;
+  font-family: 'Crete Round', serif;
+}
+#welcome-section{
+  color:#dc3545;
+  font-style: oblique;
+  max-width: 100%;
+  margin: auto;
+  padding-bottom: 100px;
+
+}
+.project{
+  background-color: #45567d;
+}
+.card{
+  display: inline-block;
+  margin: 30px 0;
+  display: block;
+  border-radius: 0px;
+  max-width: 100%;
+  text-align: center;
+position: relative;
+left:18%;
+
+}
+
+.card-deck{max-width: 100%;
+margin: auto;
+display: block;
+text-align: center;
+height: auto;
+}
+.card-body{
+  background-color: #303841;
+  margin:-1px;
+  display: block;
+  height: auto;
+
+
+
+}
+#project-title{
+  color: white;
+  }
+
+
+
+.codetwo{
+
+  display: none;
+
+}
+.hidden{
+  display: none;
+}
+.show{
+  display: inherit;
+}
+.showbtn{
+  background-color:  #303841;
+  border-radius: 0px;
+  color:white;
+border-style: none;
+margin-bottom:30px;
+width: 15%;
+height:40px;
+font-family: 'Poppins', sans-serif;
+}
+.showbtn:hover{
+  background-color: #dc3545;
+  font-weight: bold;
+}
+.coffee{
+  color: white;
+  font-style: oblique;
+}
+
+
+.projname:hover +.codetwo{
+  display: inline;
+    color:darkorange;
+}
+
+.socmed{
+  color: white;
+  text-align: center;
+
+}
+.soclink{
+  color:white;
+  font-size: 2.4rem;
+  font-family: "Montserrat",sans-serif;
+
+
+}
+.soclink:hover{
+  position: relative;
+  top:5px;
+}
+.end{
+  color: white;
+  font-family: 'JetBrains Mono', monospace;
+}
+footer{
+  color: white;
+}
+.hidden{
+  display: none;
+}
+.show{
+  display: inline;
+}
